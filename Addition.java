@@ -9,6 +9,14 @@ public class Addition { // as the class name that contains the main method is "A
       // read two integers A and B
       // if both are -1, stop
       // output A+B
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      if(a == -1 && b == -1){
+        break;
+      }
+      else{
+        System.out.println(a+b);
+      }
     }
   }
 }
